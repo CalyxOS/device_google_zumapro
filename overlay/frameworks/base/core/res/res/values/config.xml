@@ -311,7 +311,9 @@
     <fraction name="config_prescaleAbsoluteVolume_index3">100%</fraction>
 
     <!-- Telephony satellite service package name to bind to by default. -->
+    <!--
     <string name="config_satellite_service_package">com.google.android.satellite</string>
+    -->
 
     <!-- The time duration in millis after which Telephony will stop waiting for the response of the
          satellite enable request from modem, and send failure response to the client that has
