@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2c4678b_de6055c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-01-15T21:44:52Z",
+      "side": 1,
+      "message": "Alternative: https://review.lineageos.org/q/If0746362fb0e60ebe0c99cad554ce9a55f3fb7a1 which does not work without GMS and we don\u0027t know how it would work with microG",
+      "revId": "2f8a7106ffc49a29b6093cd7deb9b83f7f40b13d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
