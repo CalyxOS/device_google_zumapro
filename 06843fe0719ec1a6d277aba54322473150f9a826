@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23dc7ec6_395c0dd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-06-18T14:58:50Z",
+      "side": 1,
+      "message": "We should just merge latest lineage updates instead, touch is switched to AIDL",
+      "revId": "06843fe0719ec1a6d277aba54322473150f9a826",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
