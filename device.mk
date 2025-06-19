@@ -92,8 +92,6 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/google_nos/test/system-test-harness \
 	vendor/google/camera
 
-LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image.lz4
-
 # Set the environment variable to switch the Keymint HAL service to Rust
 TRUSTY_KEYMINT_IMPL := rust
 
@@ -487,7 +485,6 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
 # Init files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel \
 	device/google/zumapro/conf/init.zumapro.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.zumapro.usb.rc \
 	device/google/zumapro/conf/ueventd.zumapro.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
@@ -555,7 +552,7 @@ include device/google/gs-common/insmod/insmod.mk
 
 # Insmod config files
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,init.insmod.*.cfg,$(TARGET_KERNEL_DIR),$(TARGET_COPY_OUT_VENDOR_DLKM)/etc)
+	$(call find-copy-subdir-files,init.insmod.*.cfg,$(TARGET_KERNEL_DIR)/vendor_dlkm/etc,$(TARGET_COPY_OUT_VENDOR_DLKM)/etc)
 
 # For creating dtbo image
 PRODUCT_HOST_PACKAGES += \
