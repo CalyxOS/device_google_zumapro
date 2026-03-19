@@ -353,7 +353,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    DMServiceOverlayProductZumapro \
     EuiccSupportPixelOverlay \
     FrameworkResOverlayProductZumapro \
     FrameworkResOverlayVendorZumapro \
@@ -363,7 +362,6 @@ PRODUCT_PACKAGES += \
     GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerSafetyCenterOverlay \
-    PixelConfigOverlay2019 \
     PixelConfigOverlay2021 \
     PixelConfigOverlayCommon \
     PixelConnectivityOverlay2024 \
@@ -373,21 +371,18 @@ PRODUCT_PACKAGES += \
     PixelWifiOverlay2025_M26Zumapro \
     SafetyRegulatoryInfoOverlayProductZumapro \
     SettingsGoogleOverlayProductZumapro \
-    SettingsGoogleOverlayVendorZumapro \
     SettingsProviderOverlayProductZumapro \
     SettingsProviderOverlayVendorZumapro \
     ShannonImsOverlayProductZumapro \
     SystemUIGoogleOverlayProductZumapro \
     SystemUIGoogleOverlayVendorZumapro \
     TeleServiceOverlayProductZumapro \
-    TeleServiceOverlayVendorZumapro \
-    TelephonyProviderOverlayProductZumapro
+    TeleServiceOverlayVendorZumapro
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlayLineageZumapro \
     LineageSdkOverlayZumapro \
-    SettingsOverlayZumapro \
-    SimpleDeviceConfigOverlayZumapro
+    SettingsOverlayZumapro
 
 # Parts
 PRODUCT_PACKAGES += \
