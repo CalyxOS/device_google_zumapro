@@ -120,6 +120,9 @@ vendor.media.omx=0
 # Rescue party
 persist.device_config.configuration.disable_rescue_party=true
 
+# Security patch
+ro.vendor.kernel.security_patch=2026-07-05
+
 # SoC
 ro.soc.manufacturer=Google
 ro.soc.model=Tensor G4
