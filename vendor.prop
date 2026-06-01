@@ -113,7 +113,7 @@ vendor.powerhal.apf_enabled=true
 persist.device_config.configuration.disable_rescue_party=true
 
 # Security patch
-ro.vendor.kernel.security_patch=2026-05-05
+ro.vendor.kernel.security_patch=2026-06-05
 
 # SoC
 ro.soc.manufacturer=Google
